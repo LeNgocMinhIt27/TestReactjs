@@ -1,0 +1,90 @@
+#sidebar {
+    height: 100%;
+    padding-top: 15px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(224, 216, 216);
+}
+
+
+.sidebar__title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #333;
+
+}
+
+.sidebar__title_text {
+    padding-right: 3px;
+}
+
+.sidebar__ask {
+    position: relative;
+    padding: 0px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.sidebar__ask_round {
+    font-size: 16px;
+}
+
+.sidebar__ask_icon {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sidebar__animals_item_icon {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sidebar__animals_item {
+    padding: 8px 0px;
+    color: #757575;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #f2f6f9
+}
+
+
+.sidebar__animals_item_title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sidebar__animals_check {
+    font-weight: 400;
+}
+
+.filterBottom {
+    border-bottom: 1px solid #968d8d;
+}
+
+#tooltip-right .tooltip-inner {
+    background-color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px;
+    margin-bottom: 5px;
+    animation: tooltipScale 0.3s forwards;
+    transform-origin: center;
+    max-width: 100%;
+}
+
+@keyframes tooltipScale {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

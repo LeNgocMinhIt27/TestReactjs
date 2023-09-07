@@ -1,0 +1,177 @@
+.content__animals {
+    padding-top: 15px;
+}
+
+.content__animals_item {
+    max-height: 416px;
+    margin-bottom: 20px;
+}
+
+#tooltip-bottom-card-right .tooltip-inner {
+    background-color: #706a6a !important;
+    font-size: 14px;
+    min-width: 700px;
+    text-align: left;
+    padding: 8px 15px !important;
+    font-weight: 600;
+    animation: tooltipScale 0.3s forwards;
+    transform-origin: top !important;
+    opacity: 0.9;
+    max-width: 100%;
+}
+
+.card__top {
+    justify-content: space-between;
+    min-height: 83px;
+    padding-bottom: 15px;
+}
+
+.content__animals a {
+    text-decoration: none !important;
+}
+
+.card__thumb {
+    height: 256px;
+    min-height: 256px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card__top_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__top_left_sub {
+    font-size: 12px;
+    width: 120%;
+
+}
+
+.card__top_left_title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card__top_left_des {
+    font-style: italic;
+    font-size: 14px;
+    width: 110%;
+}
+
+.card__top_right {
+    min-width: 60px;
+    height: 60px;
+}
+
+.card__top_right_thumb {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__bottom {
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.card__bottom_left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.card__bottom_left_icon_ask {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #ceb7b7;
+    color: #ceb7b7;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateX(-50%); */
+}
+
+
+.card__bottom_left_icon_sub {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.card__bottom_right {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.card__bottom_right_icon_round {
+    background-color: #eb306f;
+    margin-right: 8px;
+}
+
+.card__bottom_right_icon_round, .card__bottom_right_icon_rounds {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+
+}
+
+.card__bottom_right_icon_rounds {
+    background-color: #f44336;
+    margin-left: 8px;
+}
+
+/* #tooltip-bottom-card-right .tooltip-inner {
+        background-color: #333;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 5px;
+        margin-bottom: 5px;
+        animation: tooltipScale 0.3s forwards;
+        transform-origin: bottom;
+    } */
+
+/* Phân trang  */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #dee2e6;
+    border-radius: 3px;
+    /* transition: background-color 0.2s, color 0.2s; */
+    transition: tranforms 0.2s ease-in-out;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: #ffffff !important;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: #ffffff !important;
+    cursor: default;
+}

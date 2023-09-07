@@ -1,0 +1,125 @@
+.content__nav {
+    color: black;
+}
+
+.content__nav_icon {
+    font-size: 28px;
+    color: #dd3e32;
+    font-weight: 200;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__nav_icon:hover {
+    background-color: #eda29d;
+    color: #f44336;
+}
+
+.content__sub {
+    font-weight: bold;
+}
+
+.inputText {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.inputText .form-control::placeholder {
+    opacity: 0.8;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.classify {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f44336;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+
+}
+
+#tooltip-bottom-card-bottom::after {
+    display: none;
+    visibility: hidden;
+}
+
+.tooltip-inner {
+    background-color: #857a7a;
+    animation: tooltipScale 0.2s ease-in-out;
+}
+
+@keyframes tooltipScale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.inputText {
+    position: relative;
+}
+
+.inputText__icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(12%);
+}
+
+.rotage {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.option__list {
+    position: absolute;
+    background-color: #fff;
+    max-height: 304px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.inputText input {
+    border: none;
+    outline: 1px solid #dad1d1;
+    transition: all 0.3s ease;
+}
+
+.inputText input[type="text"]:focus-within {
+    outline: 2px solid red;
+
+
+}
+
+.btn-clicked {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-clicked:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}

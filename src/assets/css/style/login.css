@@ -1,0 +1,154 @@
+.wrapperLogin__header {
+    display: block;
+    max-width: 100%;
+}
+
+.repons_title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headerLogin {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 88px;
+    width: 100%;
+    background: rgb(218, 42, 28);
+    display: flex;
+    align-items: center;
+}
+
+.headerLogin__ {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogin__logo {
+    width: 60px;
+    height: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerLogin__logo_img {
+    width: 100%;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerLogin__title {
+    flex-grow: 1;
+    color: #fff;
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.wrapperLogin {
+    padding-top: 88px;
+}
+
+.fullscreen-background {
+    background-image: url('http://wlp.howizbiz.com/static/img/footerLogin.cf032540.svg');
+    background-position: center bottom;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.wrapperLogin__content {
+    margin: 15px;
+    z-index: 100;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow: rgba(253, 178, 206, 0.47) 0px 2px 20px;
+    padding: 24px 0px;
+    z-index: 100;
+    background-color: #fff;
+    height: 100%;
+    text-align: -webkit-center;
+}
+
+.wrapperLogin__content_login {
+    border: 0px;
+    min-width: 100%;
+    padding: 0px 16px !important;
+}
+
+.wrapperLogin__content_login_thumbnail {
+    width: 90px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperLogin__content_login_thumbnail img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.wrapperLogin__content_login_title {
+    font-weight: 600;
+}
+
+.form_login__item, .form_submit {
+    border-radius: 25px;
+    z-index: 100;
+    padding: 13px 10px;
+
+}
+
+.form_login__item {
+    outline: 1px solid #b9afaf;
+    transition: 0.2s ease;
+    margin: 30px 0px;
+}
+
+
+.form_login__item:focus-within {
+    outline: 3px solid red;
+}
+
+.input_username, .input_password {
+    width: 100%;
+    border: none !important;
+    outline: none !important;
+    margin-left: 10px;
+    caret-color: red;
+}
+
+
+.form_icon {
+    color: #b9afaf;
+}
+
+.form_submit {
+    min-width: 100% !important;
+    background-color: #da2a1c !important;
+    border: 0px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.form_forget {
+    display: inline-block;
+    background-color: inherit;
+    color: #da2a1c;
+    margin-top: 30px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.repons_title {
+    display: none;
+}

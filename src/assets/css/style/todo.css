@@ -1,0 +1,492 @@
+.todo_search__todo {
+    outline: 1px solid #c7baba;
+    padding: 0px 12px;
+    flex-grow: 1;
+}
+
+.todo_search__icon {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+.todo_search__icon:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: red !important;
+    background-color: transparent;
+}
+
+.todo_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo_search__sub {
+    display: inline-block;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    height: 40px !important;
+}
+
+.todo_search__todo.focused {
+    outline: 2px solid red !important;
+    border: none;
+}
+
+
+.todo_search__add {
+    margin-left: 8px;
+    background-color: #da2a1c;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+
+
+.todo_search__add_btn {
+    margin-left: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.model_add {
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    min-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.modal_header {
+    padding: 5px 10px;
+    background-color: #da2a1c;
+    width: 100%;
+}
+
+.modal_title {
+    color: #fff;
+    margin: 0;
+}
+
+.close {
+    color: #000;
+    font-size: 16px;
+}
+
+.modal_body {
+    padding: 8px 15px;
+    font-size: 15px;
+}
+
+.modal_body input {
+    padding: 8px;
+}
+
+.modal_body input::placeholder {
+    font-size: 15px;
+
+}
+
+.modal_footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_btn:first-child {
+    margin-right: 5px;
+
+}
+
+/* end search  */
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.input-16,
+.form-control.input-16 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* Placeholder's font-size */
+.input-16::placeholder,
+.form-control.input-16::placeholder {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.custom-datepicker-popper {
+
+
+    .react-datepicker {
+        min-width: 218px;
+        /* Đặt theo mong muốn */
+        font-size: 13px;
+
+    }
+
+    .react-datepicker__month-container {
+        width: 100%;
+    }
+
+    .react-datepicker__current-month {
+        font-size: 16px;
+    }
+
+    .react-datepicker__day-names {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .react-datepicker__week {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .react-datepicker__day {
+        padding: 2px;
+    }
+}
+
+/* end select  */
+/* Làm cho thanh cuộn trong bảng nhỏ lại */
+
+
+.table_animals {
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    text-align: center;
+
+}
+
+.table_animals::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+
+.table_animals::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 3px;
+
+}
+
+.table_animals::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+
+
+/* CSS cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    /* Màu nền của bảng */
+    border: 1px solid #ddd;
+    /* Đường viền bảng */
+}
+
+/* CSS cho dòng tiêu đề */
+thead tr {
+    background-color: #f0f0f0;
+    /* Màu nền dòng tiêu đề */
+}
+
+/* CSS cho các ô tiêu đề */
+th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    min-width: 150px;
+    /* Độ rộng tối thiểu cho các ô tiêu đề */
+    max-width: 400px;
+    /* Độ rộng tối đa cho ô quyền */
+}
+
+/* CSS cho các ô dữ liệu */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    min-width: 150px;
+    /* Độ rộng tối thiểu cho các ô dữ liệu */
+}
+
+/* CSS cho các ô chứa nút và biểu tượng */
+td button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* CSS cho các biểu tượng Font Awesome */
+.list_btn__icon {
+    font-size: 16px;
+    color: #333;
+    /* Màu biểu tượng */
+}
+
+/* CSS cho các chú thích quyền */
+.text_note {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* CSS cho nền chú thích quyền */
+.text_note.bg-blue {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.text_note.bg-purple {
+    background-color: #800080;
+    color: #fff;
+}
+
+.text_note.bg-green {
+    background-color: #008000;
+    color: #fff;
+}
+
+/* CSS cho các ô chứa trạng thái */
+td .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+td .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+td .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
+td .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+td input:checked+.slider {
+    background-color: #4CAF50;
+}
+
+td input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+td input:checked+.slider:before {
+    transform: translateX(20px);
+}
+
+
+
+
+.list_btn {
+    border: none;
+    background-color: transparent;
+
+}
+
+.list_btn:hover {
+    color: #e97f77;
+
+}
+
+.list_btn__icon {
+    padding: 5px 10px;
+}
+
+.tooltip-target {
+    font-size: 18px !important;
+}
+
+.tippy-tooltip[data-tippy-root] .tippy-content {
+    font-size: 18px !important;
+}
+
+
+
+.animals_checkbox_icon .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.animals_checkbox_icon .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.animals_checkbox_icon .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.animals_checkbox_icon .slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    left: 10px;
+    bottom: 0px;
+    background-color: red;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+
+}
+
+.animals_checkbox_icon input:checked+.slider {
+    background-color: #da2a1c;
+}
+
+.animals_checkbox_icon input:focus+.slider {
+    box-shadow: 0 0 1px #32cd32;
+}
+
+.animals_checkbox_icon input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* end list  */
+.contentPost__icon {
+    font-size: 18px;
+    margin-right: 10px;
+    width: 38px;
+    height: 35px;
+    color: #da2a1c;
+    background-color: #b0dac5;
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.contentPost__title {
+    font-size: 23px;
+    font-weight: 600;
+
+}
+
+.model_animals {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}

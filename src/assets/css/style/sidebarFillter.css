@@ -1,0 +1,9 @@
+.borderBottom, .borderBottom2 {
+    border-bottom: 1px solid #a09595 !important;
+    padding: 10px;
+}
+
+.borderBottom:last-child {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
